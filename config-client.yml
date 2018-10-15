@@ -1,0 +1,28 @@
+spring:
+  profiles:
+    active:
+      - dev
+
+---
+
+server:
+  port: 8201
+spring:
+  profiles: dev
+  application:
+    name: config-client
+eureka:
+  client:
+    defaultZone: http://yangpaul:yangpaul@localhost:7001/eureka-dev
+
+---
+
+server:
+  port: 8102
+spring:
+  profiles: beta
+  application:
+    name: config-client
+eureka:
+  client:
+    defaultZone: http://yangpaul:yangpaul@localhost:7001/eureka-beta
