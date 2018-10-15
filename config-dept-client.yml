@@ -20,7 +20,7 @@ spring:
       max-total: 5
       max-wait-millis: 200
   application:
-    name: config-dept-client
+    name: dept-provider
 eureka:
   client:
     service-url:
@@ -52,7 +52,7 @@ spring:
       max-total: 5
       max-wait-millis: 200
   application:
-    name: config-dept-client
+    name: dept-provider
 eureka:
   client:
     service-url:
