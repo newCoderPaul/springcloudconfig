@@ -13,7 +13,8 @@ spring:
     name: config-client
 eureka:
   client:
-    defaultZone: http://yangpaul:yangpaul@localhost:7001/eureka-dev
+    service-url:
+      defaultZone: http://yangpaul:yangpaul@localhost:7001/eureka-dev
 
 ---
 
