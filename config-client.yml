@@ -14,7 +14,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://yangpaul:yangpaul@localhost:7001/eureka-dev
+      defaultZone: http://yangpaul:yangpaul@localhost:7001/eureka
 
 ---
 
@@ -27,4 +27,4 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://yangpaul:yangpaul@localhost:7001/eureka-beta
+      defaultZone: http://yangpaul:yangpaul@localhost:7001/eureka
